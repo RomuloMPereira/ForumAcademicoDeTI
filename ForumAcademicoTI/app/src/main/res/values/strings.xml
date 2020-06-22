@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Fórum Acadêmico de TI</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_minhas_postagens">MinhasPostagensActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="categorias">
+        <item>Álgebra Linear</item>
+        <item>Algoritmos e Programação</item>
+        <item>API e Web Service</item>
+        <item>Arquitetura de Computadores</item>
+        <item>Banco de Dados Relacional</item>
+        <item>Banco de Dados NoSQL</item>
+        <item>Cálculo Numérico</item>
+        <item>Cálculo Vetorial e Geometria Analítica</item>
+        <item>Carreira e Mercado de Trabalho</item>
+        <item>Cloud</item>
+        <item>Computação Gráfica</item>
+        <item>Data Science</item>
+        <item>Deploy</item>
+        <item>Desenvolvimento Web Front-End</item>
+        <item>Desenvolvimento Web Back-End</item>
+        <item>Desenvolvimento Mobile</item>
+        <item>Desenvolvimento de Jogos</item>
+        <item>DevOps</item>
+        <item>Engenharia de Software</item>
+        <item>Estatística</item>
+        <item>Estrutura de Dados</item>
+        <item>Experiência de Usuário</item>
+        <item>Gerência de Projetos</item>
+        <item>Gerenciamento ágil</item>
+        <item>IDE</item>
+        <item>Inteligência Artificial</item>
+        <item>Internet das Coisas</item>
+        <item>Linguagens de Programação e Frameworks</item>
+        <item>Matemática Discreta</item>
+        <item>Modelagem Computacional</item>
+        <item>Modelagem e Projeto de Software</item>
+        <item>Padrões de Arquitetura de Software</item>
+        <item>Programação Estruturada</item>
+        <item>Programação Funcional</item>
+        <item>Programação Orientada a Objetos</item>
+        <item>Programação Paralela</item>
+        <item>Redes de Computadores</item>
+        <item>Segurança da Informação</item>
+        <item>Sistemas de Informação</item>
+        <item>Sistemas Digitais</item>
+        <item>Sistemas Distribuídos</item>
+        <item>Sistemas Operacionais</item>
+        <item>Teoria dos Números</item>
+    </string-array>
+</resources>

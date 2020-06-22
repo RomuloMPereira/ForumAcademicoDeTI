@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0C7B93</color>
+    <color name="colorPrimaryLight">#00bbe6</color>
+    <color name="colorPrimarySuperLight">#ccf6ff</color>
+    <color name="colorPrimaryDark">#27496d</color>
+    <color name="colorPrimary2">#0092b3</color>
+    <color name="colorPrimarySuperDark">#142850</color>
+    <color name="colorAccent">#00a8cc</color>
+    <color name="cinza_medio">#DBDBDB</color>
+    <color name="Toolbar_Color">#6E0C7B93</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="branco_sem_opacidade">#00FFFFFF</color>
+    <color name="toolbar_color_final">#580C7B93</color>
+    <color name="fundo_app">#F3F2F2</color>
+</resources>

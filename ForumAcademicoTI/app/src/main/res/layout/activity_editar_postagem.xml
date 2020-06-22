@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.PublicarPostagemActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/include"
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="93dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinnerCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="20dp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTituloPostagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="Título"
+        android:inputType="textAutoCorrect|textMultiLine|text|textAutoComplete"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/editDescricaoPostagem"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="Descrição"
+        android:inputType="textShortMessage|textLongMessage|textAutoCorrect|textMultiLine|text|textAutoComplete"
+        android:padding="12dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imagePostagem1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/padrao" />
+
+        <ImageView
+            android:id="@+id/imagePostagem2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/padrao" />
+
+        <ImageView
+            android:id="@+id/imagePostagem3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/padrao" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonPublicarPostagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/background_botao2"
+        android:text="PUBLICAR"
+        android:textColor="@color/branco"
+        android:textColorHint="@color/branco" />
+
+
+</LinearLayout>

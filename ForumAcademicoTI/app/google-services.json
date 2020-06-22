@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "848263416449",
+    "firebase_url": "https://projeto-forum-2020-1.firebaseio.com",
+    "project_id": "projeto-forum-2020-1",
+    "storage_bucket": "projeto-forum-2020-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848263416449:android:dce5e784415ccdb6381b80",
+        "android_client_info": {
+          "package_name": "com.uva.projetoprogramacaodispositivosmoveis.forumacademicoti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848263416449-g0oi0nsk975tmnac6to2peschdcsp6v6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uva.projetoprogramacaodispositivosmoveis.forumacademicoti",
+            "certificate_hash": "1a5f45bc50fa662e5f4c1adc6a91679e4c372440"
+          }
+        },
+        {
+          "client_id": "848263416449-763jnb26ds21ulvrqhlr49pv873khbgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoRolWlBlDeJ-RbiWSW6bgo_8ugcDPnUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848263416449-763jnb26ds21ulvrqhlr49pv873khbgf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

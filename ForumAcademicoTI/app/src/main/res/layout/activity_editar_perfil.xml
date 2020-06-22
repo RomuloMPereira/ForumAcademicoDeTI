@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.EditarPerfilActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <ImageView
+        android:id="@+id/imageEditarPerfil"
+        android:layout_width="306dp"
+        android:layout_height="227dp"
+        android:background="@drawable/background_degrade"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        app:srcCompat="@drawable/padrao"
+        tools:src="@color/branco_sem_opacidade" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="316dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="66dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="365dp" />
+
+    <Button
+        android:id="@+id/buttonAlterarFoto"
+        android:layout_width="172dp"
+        android:layout_height="49dp"
+        android:background="@drawable/background_botao2"
+        android:text="ALTERAR FOTO"
+        android:textColor="@color/branco"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editEditarNome"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:hint="Nome Usuário"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@color/colorPrimarySuperDark"
+        android:textColorHint="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline6" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editEditarEmail"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:hint="E-mail"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@color/colorPrimarySuperDark"
+        android:textColorHint="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editEditarNome" />
+
+    <Button
+        android:id="@+id/buttonSalvarEdicao"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_botao2"
+        android:text="SALVAR"
+        android:textColor="@color/branco"
+        app:layout_constraintBottom_toBottomOf="@+id/include"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="387dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="578dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
